@@ -25,6 +25,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_ai_false" // 服务器监控
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_choose"   // 选择困难症帮手
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_hs"       // 炉石
+
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin_minecraft" // MCSManager
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_music"   // 点歌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_omikuji" // 浅草寺求签
