@@ -25,7 +25,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_ai_false"  // 服务器监控
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_choose"    // 选择困难症帮手
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_hs"        // 炉石
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_minecraft" // MCSManager
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin_minecraft" // MCSManager
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_music"     // 点歌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_omikuji"   // 浅草寺求签
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_reborn"    // 投胎
@@ -84,7 +84,7 @@ func main() {
 		"============================================================\n",
 	) // 启动打印
 	zero.Run(zero.Config{
-		NickName:      []string{"椛椛", "ATRI", "atri", "亚托莉", "アトリ"},
+		NickName:      []string{"ATRI", "atri", "亚托莉", "アトリ"},
 		CommandPrefix: "/",
 
 		// SuperUsers 某些功能需要主人权限，可通过以下两种方式修改
