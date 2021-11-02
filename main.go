@@ -91,7 +91,7 @@ func main() {
 		// SuperUsers 某些功能需要主人权限，可通过以下两种方式修改
 		// []string{}：通过代码写死的方式添加主人账号
 		// flag.Args()：通过命令行参数的方式添加主人账号
-		SuperUsers: append([]string{"884291191", "884291191"}, flag.Args()...),
+		SuperUsers: append([]string{"123456789", "987654321"}, flag.Args()...),
 
 		Driver: []zero.Driver{
 			&driver.WSClient{
